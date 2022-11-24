@@ -6,11 +6,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="itext7" Version="7.2.4"/>
+        <PackageReference Include="itext7" Version="7.2.4" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Update="input.pdf" CopyToOutputDirectory="PreserveNewest" />
         <None Update="resources/color/*" CopyToOutputDirectory="PreserveNewest" />
         <None Update="resources/data/*" CopyToOutputDirectory="PreserveNewest" />
         <None Update="resources/font/*" CopyToOutputDirectory="PreserveNewest" />
